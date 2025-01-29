@@ -29,7 +29,7 @@ Before running the project, ensure that you have Python 3.12 installed on your m
 **Note:** The code is set up for parallel execution with CUDA (if available). If your machine supports it, installing CUDA is recommended to train the model faster.
 
 ## Data requirements
-Due to data privacy concerns, the datasets (/deap & /amigos) folders are included only for the replication of results. After the project has been reviewed the datasets will be deleted from this repository.
+Due to data privacy concerns, the datasets (/deap & /amigos) folders are not included in this repo. To replicate the results, you can include them as described bellow:
 ###  DEAP folder structure
     └── deap/
         └── data_preprocessed_python/
